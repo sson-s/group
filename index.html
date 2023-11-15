@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <title>여행할때 여기어때</title>
+</head>
+<body>
+    <div class="wrap">
+        <header>
+            <div class="max_w">
+                <ul class="depth_1">
+                    <li><a href="#">예약내역</a></li>
+                    <li class="menu_btn"><a href="#">Menu</a></li>
+                    <li class="login_btn"><a href="#">로그인</a></li>
+                </ul>
+            </div>
+        </header>
+        <main>
+            <div class="max_w">
+                <div class="logo">
+                    <h1>
+                        <img src="image/main_logo.png" alt="메인로고">
+                    </h1>
+                </div>
+
+                <div class="search_area">
+                    <div class="car_area">
+                        <div class="car">
+                            <img src="image/car.png" alt="자동차">
+                        </div>
+                    </div>
+                    <form action="#" method="get">
+                        <div class="search_icon"></div>
+                        <input type="text" id="search_word" name="search_word">
+                    </form>
+                </div>
+
+                <div class="icon_area">
+                    <div class="box">
+                        <a href="#">
+                            <span class="icon icon1"></span>
+                            <div class="bg bg1">
+                                <p>모텔</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="box">
+                        <a href="list.html">
+                            <span class="icon icon2"></span>
+                            <div class="bg bg2">
+                                <p>호텔<br>리조트</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="box">
+                        <a href="#">
+                            <span class="icon icon3"></span>
+                            <div class="bg bg3">
+                                <p>펜션</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="box">
+                        <a href="#">
+                            <span class="icon icon4"></span>
+                            <div class="bg bg4">
+                                <p>게스트<br>하우스</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="box">
+                        <a href="#">
+                            <span class="icon icon5"></span>
+                            <div class="bg bg5">
+                                <p>캠핑<br>글램핑</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="box">
+                        <a href="#">
+                            <span class="icon icon6"></span>
+                            <div class="bg bg6">
+                                <p>해외여행</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+
+
+    <script>
+        $(".box").hover(function() {
+            $(this).find(".bg").fadeToggle();
+        });
+    </script>
+</body>
+</html>

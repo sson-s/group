@@ -1,0 +1,449 @@
+@charset "utf-8";
+
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+  /* font-family: 'Noto Sans KR', sans-serif; R  */
+
+  @font-face {
+    font-family: 'yg-jalnan';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none ;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+.inner {
+  width: 100%;
+}
+
+.inner .top-bg {
+  width: 100%;
+  height: 100px;
+  border: 1px solid #D9D9D9;
+  position: relative;
+}
+
+.inner .top-bg h3 {
+  font-family: 'Noto Sans KR', sans-serif;
+  text-align: center;
+  margin-top: 35px;
+}
+
+.inner .top-bg .top-nav {
+  display: flex;
+  margin-right: 100px;
+  gap: 30px;
+  align-items: center;
+  position: absolute;
+  top: 50%; right: 0; 
+  transform: translateY(-50%);
+}
+
+.inner .logo_box {
+  position: relative;
+}
+
+.inner .logo_box .logo {
+  position: absolute;
+  top: 110px; left: 50%;
+  transform: translateX(-50%);
+ 
+}
+
+.inner form fieldset {
+  width: 100%;
+  border: none;
+  margin-top: 216px;
+  display: flex;
+  justify-content: center;
+  float: left;
+}
+
+.inner .logo_box form fieldset .box1 {
+  width: 320px;
+  height: 140px;
+  border: 1px solid #eeeeee;
+  border-radius: 35px 0px 0px 35px;
+}
+
+.inner .logo_box form fieldset p {
+  font-size: 16px;
+  color: #000;
+  font-family: 'Noto Sans KR', sans-serif;
+  margin: 30px 0px 0px 40px;
+}
+
+.inner .logo_box form fieldset input {
+  border: none;
+  margin: 17px 0px 0px 40px;
+  font-size: 20px;
+  color: #C0C0C0;
+  font-family: 'Noto Sans KR', sans-serif;
+  outline: none;
+}
+
+.inner .logo_box form fieldset .box2 {
+  width: 320px;
+  height: 140px;
+  border: 1px solid #eeeeee;
+}
+
+.inner .logo_box form fieldset .box3 {
+  width: 450px;
+  height: 140px;
+  border: 1px solid #eeeeee;
+  border-radius: 0px 35px 35px 0px;
+  position: relative;
+}
+
+.inner .logo_box form fieldset .box3 button {
+  width: 110px;
+  height: 77px;
+  background-color: #E83426;
+  border-radius: 23px;
+  border: none;
+  position: absolute;
+  top: 31px; right: 40px;
+  cursor: pointer;
+}
+
+.inner .logo_box form fieldset .box3 button a {
+  color: #fff;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.inner .logo_box form .icon {
+  display: flex;
+  float: left;
+  margin: 46px 0px 0px 671px;
+  gap: 26px;
+}
+
+main .container p {
+  font-family: 'yg-jalnan';
+  font-size: 32px;
+  width: 1400px;
+  height: 34px;
+  position: absolute;
+  top: 651px; left: 260px;
+  display: block;
+  margin-bottom: 35px; 
+  display: flex;
+}
+
+main .container p a {
+  width: 50px;
+  height: 12px;
+  background: url(../img/top_right.svg)no-repeat;
+  display: block;
+  margin: 20px 0px 0px 1160px;
+}
+
+main .container .box {
+  position: relative;
+}
+
+main .container .box .box1 {
+  width: 1400px;
+  height: 460px;
+  background: url(../img/top1.svg) no-repeat;
+  position: absolute;
+  top: 620px; left: 260px;
+}
+
+main .container .box .box2 {
+  width: 1400px;
+  height: 460px;
+  background: url(../img/top2.svg) no-repeat;
+  position: absolute;
+  top: 1110px; left: 260px;
+}
+
+main .container .box .box3 {
+  width: 1400px;
+  height: 460px;
+  background: url(../img/top3.svg) no-repeat;
+  position: absolute;
+  top: 1600px; left: 260px;
+}
+
+main .event {
+  width: 100%;
+  height: 100%;
+}
+
+main .event .event_box {
+  width: 1420px;
+  height: 200px;
+  margin: 0 auto;
+  display: flex;
+}
+
+main .event .event_box .event1 {
+  width: 690px;
+  height: 200px;
+  background: url(../img/event1.svg) no-repeat;
+  margin: 1708px 10px 0px 10px; 
+}
+
+main .event .event_box .event2 {
+  width: 690px;
+  height: 200px;
+  background: url(../img/event2.svg) no-repeat;
+  margin: 1708px 10px 0px 10px; 
+}
+
+main .premium {
+  width: 100%;
+  height: 100%;
+}
+
+main .premium p {
+  font-family: 'yg-jalnan';
+  font-size: 32px;
+  width: 1400px;
+  height: 34px;
+  margin: 1850px 0px 35px 260px;
+}
+
+main .premium .p_box {
+  width: 1400px;
+  height: 1209px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+main .premium .p_box .p_box1 {
+  width: 675px;
+  height: 360px;
+  background: url(../img/p_box1.svg)no-repeat;
+}
+
+main .premium .p_box .p_box2 {
+  width: 675px;
+  height: 360px;
+  background: url(../img/p_box2.svg)no-repeat;
+}
+
+main .premium .p_box .p_box3 {
+  width: 675px;
+  height: 360px;
+  background: url(../img/p_box3.svg)no-repeat;
+  margin-top: 0px;
+}
+
+main .premium .p_box .p_box4 {
+  width: 675px;
+  height: 360px;
+  background: url(../img/p_box4.svg)no-repeat;
+}
+
+main .premium .p_box .p_box5 {
+  width: 675px;
+  height: 360px;
+  background: url(../img/p_box5.svg)no-repeat;
+  margin-top: 0px;
+}
+
+main .premium .p_box .p_box6 {
+  width: 675px;
+  height: 360px;
+  background: url(../img/p_box6.svg)no-repeat;
+}
+
+main .page_all {
+  width: 1400px;
+  height: 32px;
+  margin: 100px auto;
+}
+
+main .page_all .page {
+  width: 248px;
+  height: 32px;
+  background: url(../img/page.svg) no-repeat;
+  margin: 0 auto;
+}
+
+main .modal_button button {
+  position: fixed;
+  bottom: 0; right: 0;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  margin: 120px;
+  z-index: 2;
+}
+
+main .modal_button .modal {
+  width: 1400px;
+  height: 866px;
+  z-index: 9;
+  display: none;
+  position: fixed;
+  bottom: 40px; right: 260px;
+}
+
+main .modal_button .modal::after {
+  content: '';
+  width: 1398px;
+  height: 866px;
+  margin: 0 auto;
+  background: url(../img/search_modal.svg)no-repeat;
+  display: block;
+  background-size: contain;
+}
+
+.bg {
+  width: 100%;
+  height: 100vh;
+  background-color:black;
+  opacity: 0.5;
+  position: fixed;
+  z-index: 1;
+  display: none;
+ }
+
+/* ----------------------------------- */
+
+footer {
+  width: 100%;
+  font-size: 13px;
+  background: rgb(245,245,245);
+  padding: 63px 31px 40px 31px;
+  color: rgba(0,0,0,0.38);
+  border-top: 1px solid rgba(0,0,0,0.08);
+  }
+  
+  .link {
+  width: 600px;
+  overflow: hidden;
+  }
+  
+  .link > li {
+  float: left;
+  margin-bottom: 5px;
+  }
+  
+  .link > li:nth-child(3) {
+  color: rgba(0,0,0,0.87);
+  }
+  .link > li:nth-child(3) span {
+  color: rgba(0,0,0,0.38);
+  }
+  
+  .link > li:nth-child(5),
+  .link > li:nth-child(8) {
+  clear: none;
+  }
+  
+  .link > li span {
+  display: inline-block;
+  position: relative;
+  top: -2px;
+  width: 24px;
+  font-size: 11px;
+  text-align: center;
+  }
+  
+  footer .max_w p {
+  clear: both;
+  padding: 37px 0 24px 0;
+  }
+  
+  footer .max_w p b {
+  margin-right: 10px;
+  }
+  
+  footer .max_w address {
+  line-height: 22px;
+  font-style: normal;
+  }
+  
+  footer .max_w address span{
+  display: block;
+  padding-bottom: 7px;
+  }
+  
+  footer .max_w address .order {
+  display: block;
+  padding: 6px 0;
+  }
+  
+  footer .max_w .ico {
+  overflow: hidden;
+  margin: 26px 0 0 0;
+  padding: 20px 0 5px 0;
+  border-top: 1px solid rgba(0,0,0,0.04);
+  }
+  
+  footer .max_w .ico a {
+  margin-right: 25px;
+  }
+  
+  footer .max_w .ico .fb_icon::before {
+  content: '';
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: url('../img/fb_icon.svg') no-repeat;
+  background-position: 50%;
+  background-size: contain;
+  filter: invert(59%) sepia(14%) saturate(6%) hue-rotate(42deg) brightness(82%) contrast(90%);
+  }
+  footer .max_w .ico .blog_icon::before {
+  content: '';
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: url('../img/blog_logo.svg') no-repeat;
+  background-position: 50%;
+  background-size: contain;
+  filter: invert(59%) sepia(14%) saturate(6%) hue-rotate(42deg) brightness(82%) contrast(90%);
+  }
+  
+  /* ***위 버튼 */
+  .gotop {
+  display: inline-block;
+  display: none;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  z-index: 9;
+  width: 40px;
+  height: 40px;
+  border: none;
+  background: url('../img/gotop.svg') no-repeat;
+  background-size: 40px auto;
+  cursor: pointer;
+  }
+
+  .max_w {
+    height: 100%;
+    margin: 0 260px;
+    }
+
+
+
+

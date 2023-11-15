@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/lodging_list.css">
+    <title>여행할때 여기어때</title>
+</head>
+
+<body>
+    <div class="wrap">
+        <header>
+            <div class="max_w">
+                <h1 class="logo">
+                    <a href="index.html">
+                        <img src="image/top_logo.png" alt="로고">
+                    </a>
+                </h1>
+                <h2>호텔·리조트</h2>
+                <ul class="depth_1">
+                    <li><a href="#">예약내역</a></li>
+                    <li class="menu_btn"><a href="#">Menu</a></li>
+                    <li class="login_btn"><a href="#">로그인</a></li>
+                </ul>
+            </div>
+        </header>
+        <main>
+            <div class="max_w">
+                <div class="swiper_section">
+                    <div class="room_swiper">
+                        <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff"
+                            class="swiper mySwiper2">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="image/img_1.jpg" />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="image/img_2.jpg" />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="image/img_3.png" />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="image/img_4.jpg" />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="image/img_5.jpg" />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="image/img_6.jpg" />
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+
+                    <div thumbsSlider="" class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="image/thum_1.png"/>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="image/thum_2.png"/>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="image/thum_3.png"/>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="image/thum_4.png"/>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="image/thum_5.png"/>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="image/thum_6.png"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="info_section">
+                    <div class="title_area">
+                        <p>5성급</p>
+                        <h3>노보텔 앰버서더 서울 강남</h3>
+                        <div class="review">
+                            <span class="star_icon"></span>
+                            <strong>9.2</strong>
+                            <span class="review_c">(456)</span>
+                        </div>
+                    </div>
+                    <div class="service_area">
+                        <h4>인기 시설 및 서비스</h4>
+                        <div class="service">
+                            <div class="s_box">
+                                <span class="s_icon s1"></span>
+                                <p>주차가능</p>
+                            </div>
+                            <div class="s_box">
+                                <span class="s_icon s2"></span>
+                                <p>어메니티</p>
+                            </div>
+                            <div class="s_box">
+                                <span class="s_icon s3"></span>
+                                <p>와이파이</p>
+                            </div>
+                            <div class="s_box">
+                                <span class="s_icon s4"></span>
+                                <p>객실금연</p>
+                            </div>
+                            <div class="s_box">
+                                <span class="s_icon s5"></span>
+                                <p>피트니스</p>
+                            </div>
+                            <div class="s_box">
+                                <span class="s_icon s6"></span>
+                                <p>수화물<br>보관</p>
+                            </div>
+                            <div class="s_box">
+                                <span class="s_icon s7"></span>
+                                <p>비즈니스</p>
+                            </div>
+                            <div class="s_box">
+                                <span class="s_icon s8"></span>
+                                <p>24시간<br>데스크</p>
+                            </div>
+                        </div>
+                        <a href="#" class="s_more">전체보기</a>
+                    </div>
+                </div>
+
+
+                <div class="content_section">
+                    <div class="c_title">
+                        <button type="button" class="b1">객실선택</button>
+                        <button type="button" class="b2">위치/교통</button>
+                        <button type="button" class="b3">안내/정책</button>
+                        <button type="button" class="b4 active">리뷰</button>
+                    </div>
+                    <div class="review_summ">
+                        <div class="summ_title">추천해요</div>
+                        <div class="review_num">
+                            <span class="star_icon"></span>
+                            <span class="star_icon"></span>
+                            <span class="star_icon"></span>
+                            <span class="star_icon"></span>
+                            <span class="star_icon"></span>
+                            <p>9.2</p>
+                        </div>
+
+                        <div class="review_count">
+                            <p>
+                                <b>전체리뷰 </b>456
+                            </p>
+                            <p>
+                                <b>제휴점 답변 </b>123
+                            </p>
+                            <p>
+                                <a href="#">운영정책</a>
+                            </p>
+                        </div>
+                        <div class="review_bar">
+                            <div class="box">
+                                <span class="title">
+                                    친절도 <b>4.7</b>
+                                    <div class="bar">
+                                        <img src="image/bar_graph.png" alt="그래프">
+                                    </div>
+                                </span>
+                                <span class="title">
+                                    청결도 <b>4.7</b>
+                                    <div class="bar">
+                                        <img src="image/bar_graph.png" alt="그래프">
+                                    </div>
+                                </span>
+                                <span class="title">
+                                    편의점 <b>4.7</b>
+                                    <div class="bar">
+                                        <img src="image/bar_graph.png" alt="그래프">
+                                    </div>
+                                </span>
+                                <span class="title">
+                                    위치 만족도 <b>4.7</b>
+                                    <div class="bar">
+                                        <img src="image/bar_graph.png" alt="그래프">
+                                    </div>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="room_select">
+                            <select name="r_select" id="r_select">
+                                <option value="all">객실전체</option>
+                                <option value="1">슈페리얼 더블</option>
+                                <option value="2">슈페리얼 트윈</option>
+                                <option value="3">디럭스 더블</option>
+                                <option value="4">디럭스 트윈</option>
+                                <option value="5">이그제큐티브 더블</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="review_area">
+                        <div class="title">
+                            <div class="sort_select">
+                                <select name="sort" id="sort">
+                                    <option value="new">최근작성순</option>
+                                    <option value="up">평점 높은순</option>
+                                    <option value="down">평점 낮은순</option>
+                                </select>
+                            </div>
+                            <div class="right">
+                                <div class="photo_btn">
+                                    <input type="checkbox" name="photo_chk" id="photo_chk">
+                                    <label for="photo_chk">포토리뷰만 보기</label>
+                                </div>
+                                <div class="search">
+                                    <span class="search_icon"></span>
+                                    <input type="text" placeholder="자세한 리뷰를 찾아보세요.">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="review_content_area">
+                            <div class="review_content">
+                                <div class="user_pic">
+                                    <img src="image/user_pic.png" alt="유저 프로필 사진">
+                                </div>
+                                <div class="review">
+                                    <div class="star">
+                                        <span class="best">베스트리뷰</span>
+                                        <span class="star_icon"></span>
+                                        <span class="star_icon"></span>
+                                        <span class="star_icon"></span>
+                                        <span class="star_icon"></span>
+                                        <span class="star_icon"></span>
+                                    </div>
+                                    <div class="review_con">
+                                        <div class="title">
+                                            <span>타이거스톤</span>
+                                            <span>2023.09.14</span>
+                                        </div>
+                                        <div class="room">[조식&해피아워2인] 이그제큐티브 더블 객실 이용</div>
+                                        <p>
+                                            주차장 : B6층까지 넉넉한 주차가 가능하며 차간 간격은 보통이다<br>주차요금은 무료이며 숙박에 한해서 강남에 주차 공간이 이 정도에 무료이면
+                                            좋은듯<br>로비 : 넓은 느낌은 없지만 아기자기 하게 있다 인테리어 부터 인공폭포까지 어느정도는 신경 쓴 느낌<br>객실 : 스위트 객실로
+                                            업그레이드 되어서 일단 매우 만족<br>청결 상태나 객실 룸 컨디션은 만족함<br>시티뷰라 뷰는 포기함 ㅋㅋ 화장실은 2개라서 편하고 욕조가
+                                            있으며 샤워부스가 있어서 편함 다만 통유리라서 ㅋㅋ<br>프리미어 라운지 : 기본 셋팅으로 맛은 보통<br>해피아워는 생각보다 만족함
+                                        </p>
+
+                                        <div class="review_img">
+                                            <div class="swiper review_swiper1">
+                                                <div class="swiper-wrapper">
+                                                    <div class="swiper-slide"><img src="image/review_img1.jpg" alt="리뷰이미지1"></div>
+                                                    <div class="swiper-slide"><img src="image/review_img2.jpg" alt="리뷰이미지2"></div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-button-next"></div>
+                                            <div class="swiper-button-prev"></div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="review_content">
+                                <div class="user_pic">
+                                    <img src="image/user_pic.png" alt="유저 프로필 사진">
+                                </div>
+                                <div class="review">
+                                    <div class="review_con">
+                                        <div class="title">
+                                            <span>세종여행</span>
+                                            <span>2023.08.21</span>
+                                        </div>
+                                        <div class="room">[성인 2인+자녀 2인 조식 패키지] 슈페리어 더블 객실 이용</div>
+                                        <p>
+                                            호텔 뷰가 정말 멋지네요<br>그리고,<br>로비에서 친절한 대응도 좋았습니다.
+                                        </p>
+
+                                        <div class="review_img">
+                                            <div class="swiper review_swiper2">
+                                                <div class="swiper-wrapper">
+                                                    <div class="swiper-slide"><img src="image/review_img3.jpg" alt="리뷰이미지3"></div>
+                                                </div>
+                                                <div class="swiper-button-next"></div>
+                                                <div class="swiper-button-prev"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="max_w">
+                <ul class="link">
+                    <li><a href="#">회사소개</a><span>|</span></li>
+                    <li><a href="#">이용약관</a><span>|</span></li>
+                    <li><a href="#">개인정보처리방침</a><span>|</span></li>
+                    <li><a href="#">소비자 분쟁해결 기준</a><span>|</span></li>
+                    <li><a href="#">사업자 정보확인</a></li>
+                    <li><a href="#">여기어때 마케팅센터</a><span>|</span></li>
+                    <li><a href="#">액티비티 호스트센터</a><span>|</span></li>
+                    <li><a href="#">HOTEL 여기어때</a><span>|</span></li>
+                    <li><a href="#">콘텐츠산업진흥법에 의한 표시</a></li>
+                </ul>
+                <p><b>고객행복센터 1670-6250</b><span>오전 9시 - 새벽 3시</span></p>
+                <address>
+                    <span>(주) 여기어때컴퍼니</span>
+                    주소 : 서울특별시 강남구 봉은사로 479, 479타워 11층 | 대표이사 : 정명훈 | 사업자등록번호: 742-86-00224 | 전자우편주소 : help@goodchoice.kr<br>
+                    통신판매번호 : 2017-서울강남-01779 | 관광사업자 등록번호: 제1026-24호 | 전화번호 : 1670-6250 | 호스팅서비스제공자의 상호 표시: (주)여기어때컴퍼니<br>
+                    <span class="order">(주) 여기어때컴퍼니는 통신판매중개자로서 통신판매의 당사자가 아니며, 상품의 예약, 이용 및 환불 등과 관련한 의무와 책임은 각 판매자에게 있습니다.</span><br>
+                    Copyright GC COMPANY Corp. All rights reserved.
+                </address>
+                <div class="ico">
+                    <a href="#" class="fb_icon"></a>
+                    <a href="#" class="blog_icon"></a>
+                    <!-- <a href="#" class="naverpost_icon"><span>네이버포스트</span></a> -->
+                </div>
+            </div>
+        </footer>
+
+        <button class="gotop"></button>
+    </div>
+
+
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            spaceBetween: 4,
+            slidesPerView: 6,
+            freeMode: true,
+            watchSlidesProgress: true,
+        });
+        var swiper2 = new Swiper(".mySwiper2", {
+            spaceBetween: 10,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            thumbs: {
+                swiper: swiper,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable : true
+            }
+        });
+
+        var review_swiper1 = new Swiper(".review_swiper1", {
+            spaceBetween: 25,
+            slidesPerView: 3,
+            freeMode: true,
+            watchSlidesProgress: true,
+        });
+        var review_swiper2 = new Swiper(".review_swiper2", {
+            spaceBetween: 25,
+            slidesPerView: 3,
+            freeMode: true,
+            watchSlidesProgress: true,
+        });
+
+        $(window).scroll(function() {
+            if($(this).scrollTop() >= 300) {
+                $('.gotop').fadeIn();
+            } else {
+                $('.gotop').fadeOut();
+            }
+        })
+        $('.gotop').click(function(e) {
+            e.preventDefault();
+            $('html, body').stop().animate({
+                scrollTop: 0
+            }, 500);
+        })
+
+        $('.c_title button').click(function() {
+            $('.c_title button').removeClass('active');
+            $(this).addClass('active');
+        });
+    </script>
+</body>
+
+</html>
